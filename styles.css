@@ -1,0 +1,123 @@
+html {
+    margin: 0; 
+    padding: 0;
+    
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #AB886D, #493628);
+    text-align: center; 
+    font-family: 'Gideon Roman', serif;
+  }
+  
+  h1, #img-caption, #tribute-info, #tribute-infobottom, footer {
+    text-align: center; 
+  }
+  
+  
+  #image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      width: 520px;
+      object-fit: cover;
+      border: solid black 3px;
+      border-bottom: 5px solid black;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  #tribute-infobottom, #tribute-info {
+    border-bottom: 5px solid black;
+    width: 500px; 
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid black 3px;
+  }
+  
+  #left-text {
+    margin: 10px;
+    text-align: left;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+    border-bottom: 5px solid black;
+    font-family: 'Gideon Roman', serif;
+    border: solid black 3px;
+  }
+  
+  #centered {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .section {
+    background-color: white
+  }
+  
+  #img-caption {
+    margin: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+    border-bottom: 5px solid black;
+    border: solid black 3px;
+  }
+  
+  .gideon-roman-regular {
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #title {
+    margin: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+    border-bottom: 5px solid black;
+    border: solid black 3px;
+  }
+  
+  footer {
+        margin: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #D6C0B3;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+    border-bottom: 5px solid black;
+    border: solid black 3px;
+    margin-top: 10px;
+    
+  }
+  
+  #tribute-link {
+    color: blue;
+    
+  }
+  
+  #img-div {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      margin: 0 auto;
+  }
